@@ -22,3 +22,7 @@ main{display:block;width:100%;height:100%;min-height:100%;margin:0;padding:0}
 .game-wrap{position:fixed;inset:0;width:100%;height:100%;margin:0;padding:12px;background:#030604;overflow:auto}
 .game-wrap canvas{width:100%;height:auto;max-height:70dvh}
 @media(max-width:700px){.game3d-wrap .game-top{font-size:12px}.game3d-wrap .game-hud{gap:6px}.game3d-wrap .game-hud button{min-height:44px;flex:1}.menu-card{padding:22px}}
+
+
+/* VR-only build: remove all visible entry points to the legacy 2D prototype. */
+#menu2D,#play2D,.mode-switch,.game-wrap{display:none!important}
