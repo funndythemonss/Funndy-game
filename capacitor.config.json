@@ -1,0 +1,9 @@
+{
+  "appId": "com.funndy.primal_echoes",
+  "appName": "Primal Echoes Underground",
+  "webDir": "public",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false
+  }
+}
